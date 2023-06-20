@@ -1,0 +1,18 @@
+.property-list {
+    display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-column-gap: 20px;
+  padding: 10px;
+}
+
+.property-list ul {
+  flex: 1;
+  margin-right: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
